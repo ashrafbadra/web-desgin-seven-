@@ -1,0 +1,749 @@
+*,
+*:before,
+*:after {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  height: auto;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.clear {
+  clear: both;
+}
+
+header {
+  width: 100%;
+  position: fixed;
+  background-color: #ff8b38e8;
+  height: auto;
+  padding: 5px;
+  z-index: 999;
+}
+
+header .logo p {
+  font-size: 18px;
+  text-transform: uppercase;
+  float: left;
+  color: #888;
+  padding-top: 1%;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-end;
+  padding-top: 1%;
+}
+
+header ul li a {
+  color: #888;
+  font-size: 15px;
+  margin-left: 25px;
+  text-decoration: none;
+}
+
+header .logo p:hover {
+  color: #fff;
+}
+
+header ul li a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.sticky {
+  background: #101010;
+}
+
+section.home {
+  width: 100%;
+  background: url(../images/header.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  height: 400px;
+  padding-top: 4%;
+  color: #fff;
+}
+
+section.home h1 {
+  font-size: 60px;
+  padding-top: 18%;
+}
+
+section.home h1 span {
+  color: #ff8b38;
+}
+
+section.home p:nth-of-type(1) {
+  font-size: 30px;
+}
+
+hr {
+  width: 80px;
+  border: 1px solid #fff;
+}
+
+section.home p:nth-of-type(2) {
+  padding-bottom: 3%;
+}
+
+section.home button {
+  width: 120px;
+  padding: 10px;
+  background: none;
+  border: none;
+  outline: none;
+  border: 2px solid #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+section.home .left {
+  background: #fff;
+  height: 350px;
+  width: 350px;
+  color: #000;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 18%;
+}
+
+section.home ul {
+  list-style: none;
+  border-radius: 5px;
+}
+
+section.home ul li {
+  padding: 20px;
+  border-radius: 5px;
+}
+
+section.home ul li input {
+  border: none;
+  padding: 8px;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+section.home ul li:nth-of-type(1) {
+  background: #f5f5f5;
+  font-size: 19px;
+}
+
+section.home ul li span {
+  color: #ff8b38;
+}
+
+section.home ul li:nth-of-type(5) {
+  background: #ff8b38;
+  color: #fff;
+  border-radius: 0 0 5px 5px;
+  cursor: pointer;
+}
+
+section.home ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+section.home ul li a:hover {
+  color: #252525;
+}
+
+@media (max-width: 575px) {
+  section.home {
+    height: auto;
+    text-align: center;
+  }
+
+  section.home p:nth-of-type(1) {
+    font-size: 20px;
+  }
+
+  hr {
+    margin: auto;
+  }
+
+  section.home p:nth-of-type(2) {
+    padding-bottom: 1%;
+    font-size: 11px;
+    padding-top: 2%;
+  }
+  section.home .left {
+    margin: auto;
+  }
+
+  section.home button {
+    margin-bottom: 2%;
+  }
+}
+
+section.social {
+  width: 100%;
+  height: 110px;
+}
+
+@media (max-width: 575px) {
+  section.social {
+    text-align: center;
+  }
+}
+
+section.social .right h3 {
+  font-weight: bold;
+}
+
+section.social .right p {
+  color: #888;
+}
+
+section.social .left ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 5%;
+}
+
+#icon-one,
+#icon-two,
+#icon-there,
+#icon-four,
+#icon-five,
+#icon-sex,
+#icon-seven {
+  font-size: 40px;
+  margin-left: 20px;
+  color: #888;
+  cursor: pointer;
+}
+
+#icon-one:hover {
+  color: #3b5999;
+}
+
+#icon-two:hover {
+  color: #55acee;
+}
+
+#icon-there:hover {
+  color: #eb4924;
+}
+
+#icon-sex:hover {
+  color: #eb4924;
+}
+
+#icon-seven:hover {
+  color: #eb4924;
+}
+
+#icon-four:hover {
+  color: #f00;
+}
+
+#icon-five:hover {
+  color: #410093;
+}
+
+section.tap {
+  width: 100%;
+  height: 550px;
+  background-color: #f7f7f7;
+  padding-top: 5%;
+}
+
+@media (max-width: 575px) {
+  section.tap .right button {
+    margin: auto;
+  }
+}
+
+section.tap .right {
+  padding-top: 25px;
+  float: left;
+}
+
+section.tap .right button {
+  display: block;
+  width: 150px;
+  height: 120px;
+  margin-bottom: 1px;
+  outline: none;
+  border: none;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+section.tap .right button:nth-of-type(1) {
+  background: #ff8b38;
+}
+
+section.tap .right button:nth-of-type(2),
+section.tap .right button:nth-of-type(3) {
+  background: #333;
+  transition: 0.5s all;
+}
+
+section.tap .right button:nth-of-type(2):hover {
+  background: #ff8b38;
+}
+
+section.tap .right button:nth-of-type(3):hover {
+  background: #ff8b38;
+}
+
+section.tap .left {
+  margin-left: 20px;
+  float: left;
+}
+
+section.tap .left h1 {
+  font-size: 23px;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+section.tap .left p {
+  line-height: 1.8;
+  font-size: 20px;
+  color: #888;
+}
+
+section.tap .left button {
+  width: 140px;
+  height: 50px;
+  background: #ff8b38;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  font-size: 20px;
+}
+
+section.tap img {
+  margin: -70px;
+  margin-top: 20%;
+}
+
+section.sublist {
+  width: 100%;
+  height: 600px;
+  padding-top: 8%;
+}
+
+section.sublist .right {
+  margin-top: 8%;
+}
+
+section.sublist .left h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+section.sublist .left span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin-bottom: 5%;
+  background: #ff8b38;
+}
+
+section.sublist .left p:nth-of-type(1) {
+  color: #888;
+}
+
+section.sublist .left .left-one .right {
+  float: left;
+  margin-top: 50px;
+}
+
+section.sublist .left .left-one .left {
+  padding-top: 1%;
+  margin-left: 80px;
+}
+
+#sub {
+  width: 50px;
+  height: 50px;
+  color: #ff8b38;
+  font-size: 10px;
+  padding: 8px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+}
+
+section.sublist .left .left-one .left h2 {
+  font-size: 18px;
+  color: #31708f;
+}
+
+section.sublist .left .left-one .left label {
+  color: #888;
+  font-size: 13px;
+}
+
+section.sublist-two {
+  width: 100%;
+  height: 550px;
+  background: #f7f7f7;
+  padding-top: 8%;
+}
+
+section.sublist .right {
+  margin-top: 8%;
+}
+
+section.sublist-two .left h2 {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 2%;
+}
+
+section.sublist-two .left span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  margin-bottom: 5%;
+  background: #ff8b38;
+}
+
+section.sublist-two .left p:nth-of-type(1) {
+  color: #888;
+}
+
+section.AWESOME {
+  width: 100%;
+  height: 550px;
+  padding-top: 5%;
+}
+
+section.AWESOME h1 {
+  font-size: 50px;
+  margin-bottom: 2%;
+}
+
+section.AWESOME span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #ff8b38;
+  margin: auto;
+  margin-bottom: 2%;
+}
+
+section.AWESOME p {
+  color: #888;
+}
+
+section.AWESOME .row {
+  padding-top: 3%;
+}
+
+section.AWESOME .row .desgin h2 {
+  font-size: 28px;
+  padding-bottom: 2%;
+}
+
+#icon-desgin {
+  color: #ff8b38;
+  width: 70px;
+  height: 70px;
+  font-size: 10px;
+  padding: 10px;
+  border: 2px solid #ff8b38;
+  border-radius: 50%;
+}
+
+section.options {
+  width: 100%;
+  height: 950px;
+  background: #f7f7f7;
+  padding-top: 5%;
+}
+
+section.options span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #ff8b38;
+  margin: auto;
+}
+
+section.options h1 {
+  padding-bottom: 2%;
+}
+
+section.options p {
+  padding-top: 2%;
+  color: #888;
+}
+
+section.options .row {
+  padding-top: 8%;
+}
+
+section.options ul {
+  color: #888;
+  list-style: none;
+}
+
+section.options ul li {
+  background: #fff;
+  padding: 20px;
+  padding-bottom: 3%;
+  border-top: 1px solid #ccc;
+}
+
+section.options ul li:nth-of-type(1) {
+  font-size: 25px;
+  background: #333;
+  color: #fff;
+  border-bottom: 1px solid #fff;
+}
+
+section.options ul li:nth-of-type(2) {
+  font-size: 80px;
+  background: #333;
+  color: #fff;
+  border-bottom: 5px solid #ff8b38;
+}
+
+section.options ul li:nth-of-type(3):hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.options ul li.def:hover {
+  background: #ff8b38;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.options ul li:nth-of-type(4):hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.options ul li:nth-of-type(5):hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.options ul li:nth-of-type(6):hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.options ul li:nth-of-type(7):hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.options ul li:nth-of-type(8):hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.options ul li:nth-of-type(9):hover {
+  background: #333;
+  color: #fff;
+  cursor: pointer;
+}
+
+section.options ul li p,
+section.options ul li label {
+  font-size: 20px;
+}
+
+section.options ul li.def {
+  background: #ff8b38;
+  color: #fff;
+  font-weight: bold;
+}
+
+section.options ul li.de {
+  border-bottom: none;
+}
+
+section.options .row .d {
+  margin-top: -13%;
+}
+
+section.CUSTOMERS {
+  width: 100%;
+  height: 500px;
+  padding-top: 5%;
+}
+
+section.CUSTOMERS span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #ff8b38;
+  margin: auto;
+}
+
+section.CUSTOMERS h1 {
+  padding-bottom: 2%;
+  text-align: center;
+}
+
+section.CUSTOMERS .pragh {
+  color: #888;
+  padding-top: 2%;
+  text-align: center;
+}
+
+section.CUSTOMERS .row {
+  padding-top: 3%;
+}
+
+section.CUSTOMERS .row .saying .top {
+  background: #f7f7f7;
+  padding: 15px;
+  margin: 0;
+}
+
+section.CUSTOMERS .row .saying .bottom .bottom-one {
+  float: left;
+  padding-top: 2%;
+  padding-left: 2%;
+  padding-right: 3%;
+}
+
+section.CUSTOMERS .row .saying .bottom .bottom-two {
+  padding: 10px;
+}
+
+section.CUSTOMERS .row .saying .bottom .bottom-two h3 {
+  margin-top: 5px;
+  font-size: 20px;
+}
+
+section.CUSTOMERS .row .saying .bottom .bottom-two h4 {
+  font-size: 15px;
+  color: #888;
+}
+
+section.STYLISH {
+  width: 100%;
+  height: 320px;
+  background: url(../images/stylish.png);
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+section.STYLISH h1 {
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+section.STYLISH span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #fff;
+  margin: auto;
+}
+
+section.STYLISH p {
+  padding-top: 2%;
+  color: #888;
+}
+
+section.STYLISH button {
+  width: 120px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: none;
+  border: 2px solid #fff;
+  margin-top: 2%;
+}
+
+section.contact {
+  width: 100%;
+  height: 650px;
+  padding-top: 5%;
+}
+
+section.contact h1 {
+  font-size: 40px;
+  padding-bottom: 2%;
+}
+
+section.contact span {
+  display: block;
+  width: 80px;
+  height: 3px;
+  background: #ff8b38;
+  margin: auto;
+}
+
+section.contact p {
+  color: #888;
+  padding-top: 2%;
+}
+
+section.contact .row {
+  padding-top: 4%;
+}
+
+section.contact .row input {
+  display: block;
+  width: 100%;
+  padding: 26px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+}
+
+section.contact .row textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-bottom: 1px solid #ccc;
+}
+
+section.contact button {
+  width: 150px;
+  margin-top: 4%;
+  padding: 10px;
+  background: #ff8b38;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+footer {
+  width: 100%;
+  height: 60px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 60px;
+  background: #333;
+  color: #fff;
+}
